@@ -3,7 +3,420 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Taiyeba Afrin</title>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Custom CSS -->
   </head>
-  <body></body>
+  <body>
+    <!-- Navigation -->
+    <header>
+      <nav class="navbar">
+        <a href="#" class="nav-logo">Taiyeba</a>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+          <li>
+            <!-- Button that links to a PDF file -->
+            <button class="pdf-button">
+              <a
+                href="https://elibrary.iom.edu.bd/wp-content/uploads/2020/05/Nurani_Quran_LQ_QA.pdf"
+                >Resume</a
+              >
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- info hero section -->
+    <div class="hero-section display-flex">
+      <div class="intro-container">
+        <div class="greeting">HI!!</div>
+        <h1 class="name">I'M Taiyeba</h1>
+
+        <div class="title">
+          <span>Web Developer</span> | <span>React Developer</span> |
+          <span>Programmer</span>!
+        </div>
+
+        <p class="description">
+          I am an enthusiastic JavaScript developer with knowledge of some
+          frameworks for the frontend and the backend. I know Basic PHP and
+          MySQL but basically a MERN developer.
+        </p>
+        <!-- social media -->
+        <div class="social-container">
+          <a href="#" class="social-icon linkedin" title="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+
+          <a href="#" class="social-icon github" title="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+
+          <a href="#" class="social-icon twitter" title="Twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+
+          <a href="#" class="social-icon twitter" title="Twitter">
+            <i class="fab fa-youtube"></i>
+          </a>
+          <button class="pdf-button">
+            <a
+              href="https://elibrary.iom.edu.bd/wp-content/uploads/2020/05/Nurani_Quran_LQ_QA.pdf"
+              >Resume</a
+            >
+          </button>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="images/girl.jpeg" alt="" />
+      </div>
+    </div>
+
+    <!-- Projects section -->
+
+    <section class="projects-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">My Projects</h2>
+          <p class="section-subtitle">
+            A collection of my recent work showcasing various technologies and
+            solutions
+          </p>
+        </div>
+
+        <div class="projects-three">
+          <!-- Project 1 -->
+          <div class="project-card">
+            <img
+              src="images/images (2).jfif"
+              alt="Online University"
+              class="project-image"
+            />
+            <div class="project-content">
+              <div class="project-header">
+                <h3 class="project-title">Online University</h3>
+                <div class="project-links">
+                  <a href="#" class="project-link" aria-label="">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                  <a
+                    href="#"
+                    class="project-link"
+                    aria-label="GitHub Repository"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+              <p class="project-description">
+                A comprehensive online learning platform with course management,
+                student progress tracking, and interactive learning tools.
+              </p>
+              <div class="project-keywords">
+                <span class="keyword">React</span>
+                <span class="keyword">Node.js</span>
+                <span class="keyword">MongoDB</span>
+                <span class="keyword">Firebase</span>
+                <span class="keyword">Redux</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card">
+            <img
+              src="images/travel-web-1.png"
+              alt="Travel Agency"
+              class="project-image"
+            />
+            <div class="project-content">
+              <div class="project-header">
+                <h3 class="project-title">Travel Agency</h3>
+                <div class="project-links">
+                  <a href="#" class="project-link" aria-label="">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                  <a
+                    href="#"
+                    class="project-link"
+                    aria-label="GitHub Repository"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+              <p class="project-description">
+                Travel service website with social login, vehicle selection, and
+                real-time location features.
+              </p>
+              <div class="project-keywords">
+                <span class="keyword">HTML</span>
+                <span class="keyword">CSS</span>
+                <span class="keyword">JavaScript</span>
+                <span class="keyword">Firebase</span>
+                <span class="keyword">Google Maps API</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card">
+            <img
+              src="images/images (1).jfif"
+              alt="E-commerce Platform"
+              class="project-image"
+            />
+            <div class="project-content">
+              <div class="project-header">
+                <h3 class="project-title">E-commerce Platform</h3>
+                <div class="project-links">
+                  <a href="#" class="project-link" aria-label="">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                  <a
+                    href="#"
+                    class="project-link"
+                    aria-label="GitHub Repository"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+              <p class="project-description">
+                Full-featured online store with product catalog, shopping cart,
+                and secure payment processing.
+              </p>
+              <div class="project-keywords">
+                <span class="keyword">React</span>
+                <span class="keyword">Node.js</span>
+                <span class="keyword">Express</span>
+                <span class="keyword">MongoDB</span>
+                <span class="keyword">Stripe API</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- skils -->
+    <div class="container">
+      <section class="skills-section">
+        <h1 class="section-title">Expertise</h1>
+
+        <!-- Expertise Section -->
+        <div class="skills-category">
+          <h2 class="category-title">Expertise:</h2>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <i class="fab fa-react skill-icon"></i>
+              <span class="skill-name">React.js</span>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-js skill-icon"></i>
+              <span class="skill-name">JavaScript</span>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-node-js skill-icon"></i>
+              <span class="skill-name">Node.js</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-fire skill-icon"></i>
+              <span class="skill-name">Firebase</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-server skill-icon"></i>
+              <span class="skill-name">Express.js</span>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-html5 skill-icon"></i>
+              <span class="skill-name">HTML</span>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-bootstrap skill-icon"></i>
+              <span class="skill-name">Bootstrap</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-database skill-icon"></i>
+              <span class="skill-name">MongoDB</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Comfortable Section -->
+        <div class="skills-category">
+          <h2 class="category-title">Comfortable:</h2>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <i class="fas fa-database skill-icon"></i>
+              <span class="skill-name">SQL</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-code-branch skill-icon"></i>
+              <span class="skill-name">Redux</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-network-wired skill-icon"></i>
+              <span class="skill-name">Socket.io</span>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-aws skill-icon"></i>
+              <span class="skill-name">AWS</span>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-docker skill-icon"></i>
+              <span class="skill-name">Docker</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-code skill-icon"></i>
+              <span class="skill-name">TypeScript</span>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-react skill-icon"></i>
+              <span class="skill-name">Next.js</span>
+            </div>
+            <div class="education-item">
+              <div class="education-degree">B.Sc in Software Engineering</div>
+              <div class="education-university">
+                Yunnan University (Kunming, Yunnan, China)
+              </div>
+              <div class="education-duration">2018-2022</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Familiar Section -->
+        <div class="skills-category">
+          <h2 class="category-title">Familiar:</h2>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <i class="fas fa-laptop-code skill-icon"></i>
+              <span class="skill-name">C++</span>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-python skill-icon"></i>
+              <span class="skill-name">Python</span>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-java skill-icon"></i>
+              <span class="skill-name">Spring Boot</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-network-wired skill-icon"></i>
+              <span class="skill-name">Networking</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tools Section -->
+        <div class="skills-category">
+          <h2 class="category-title">Tools:</h2>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <i class="fas fa-code skill-icon"></i>
+              <span class="skill-name">VS Code</span>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-jira skill-icon"></i>
+              <span class="skill-name">JIRA</span>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-trello skill-icon"></i>
+              <span class="skill-name">Trello</span>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-git-alt skill-icon"></i>
+              <span class="skill-name">Git</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- form -->
+
+    <section class="contact-section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="contact-card">
+              <div class="contact-header">
+                <h1 class="contact-title">
+                  <i class="fas fa-paper-plane contact-icon"></i> Contact With
+                  Me
+                </h1>
+              </div>
+              <div class="contact-body">
+                <form>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="mb-3">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Your Name"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="mb-3">
+                        <input
+                          type="email"
+                          class="form-control"
+                          placeholder="Your Email"
+                          required
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Subject"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <textarea
+                      class="form-control"
+                      placeholder="Your Message"
+                      rows="5"
+                      required
+                    ></textarea>
+                  </div>
+                  <button type="submit" class="btn-contact">
+                    </i> Send Message
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper (no separate JS needed for basic functionality) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
